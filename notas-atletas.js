@@ -11,7 +11,7 @@ function obterResultadosDosAtletas(atletas){
         
         let mediaDasNotas = soma / notasValidas.length; //calcula a média das notas
         
-        console.log(`Atletas: ${atleta.nome},`);
+        console.log(`Atleta: ${atleta.nome}`);
         console.log(`Notas Obtidas: ${atleta.notas}`);
         console.log(`Média Válida: ${mediaDasNotas}\n`);
     }
